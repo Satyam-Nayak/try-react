@@ -3,3 +3,7 @@
     width: 300px;
     border-radius: 20px;
 }
+.car1>h1{
+    display: flex;
+    justify-content: center; 
+}
