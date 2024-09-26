@@ -4,7 +4,7 @@ class Ccompo2 extends React.Component{
     render(){
         return(
             <>
-            <h1>satyam is my developer</h1>
+            <h1>mg Bruttish is my developer</h1>
             </>
         )
     }
