@@ -5,14 +5,14 @@
 // import Car from './Car';
 // import Incre from './Incre';
 
-import Hp from "./Hp";
-
+// import Hp from "./Hp";
+import CashCounter from './Cash'
 // import Bike from './Bike';
 function App() {
   return (
     <div>
-      <Hp/>
-
+      {/* <Hp/> */}
+      <CashCounter/>
       {/* <Incre></Incre>
       <Bike></Bike>
       <Car></Car>
