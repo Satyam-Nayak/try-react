@@ -6,13 +6,15 @@
 // import Incre from './Incre';
 
 // import Hp from "./Hp";
-import CashCounter from './Cash'
+// import CashCounter from './Cash'
+import Items1 from './Items1';
 // import Bike from './Bike';
 function App() {
   return (
     <div>
+      <Items1/>
       {/* <Hp/> */}
-      <CashCounter/>
+      {/* <CashCounter/> */}
       {/* <Incre></Incre>
       <Bike></Bike>
       <Car></Car>
