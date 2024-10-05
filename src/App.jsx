@@ -1,5 +1,4 @@
-// import './App.css';
-// import other components if needed
+import './App.css';
 import Items1 from './Items1';
 
 function App() {

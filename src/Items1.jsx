@@ -11,14 +11,23 @@ function Items1() {
 
     useEffect(() => {
         fetchData();
-    }, []); // Empty dependency array ensures fetchData is called only once on mount
+    }, []); 
 
     console.log(item);
 
     return (
         <div className="items">
             <h1>Items List</h1>
-            {/* Render items here */}
+            {item.map((x)=>{
+                return(
+                    // fragmenting and formating ?
+                    <div className="sub">
+                        <img src={x.image} alt="" />
+                        <h2>Name: {x.name}</h2>
+                        <h1>price: {x.price}</h1>
+                    </div>
+                )
+            })}
         </div>
     );
 }
