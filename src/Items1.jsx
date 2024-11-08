@@ -4,7 +4,7 @@ function Items1() {
     let [item, setItem] = useState([]);
 
     async function fetchData() {
-        let data = await fetch('http://localhost:2626/Itmes');
+        let data = await fetch('http://localhost:2600/Itmes');
         let res = await data.json();
         setItem(res);
     }
