@@ -1,12 +1,14 @@
 import './App.css';
+import HomePage from './HomePage';
 import Items1 from './Items1';
 import UseRef from './UseRef'
 
 function App() {
   return (
     <div>
-      <Items1 />
-      <UseRef/>
+      <HomePage/>
+      {/* <Items1 /> */}
+      {/* <UseRef/> */}
       {/* Uncomment to use other components */}
       {/* <Hp /> */}
       {/* <CashCounter /> */}
